@@ -1,0 +1,90 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/shuten-logo.txt",
+    "color": {
+      "1": "#573586",
+      "2": "#B82645"
+    },
+    "padding": {
+      "right": 3
+    }
+  }, 
+  "modules": [
+    {
+      "type": "colors",
+      "key": " ",
+      "symbol": "diamond",
+      "brightness": "normal"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "╭─  OS"
+    },
+    {
+      "type": "kernel",
+      "key": "├─  Kernel"
+    },
+    {
+      "type": "shell",
+      "key": "├─  Shell"
+    },
+    {
+      "type": "terminal",
+      "key": "│  ╰ TTY"
+    },
+    {
+      "type": "uptime",
+      "key": "╰─  Uptime"
+    },
+    "break",
+    {
+      "type": "host",
+      "key": "╭─ 󰌢 Host"
+    },
+    {
+      "type": "cpu",
+      "key": "├─  CPU"
+    },
+    {
+      "type": "gpu",
+      "key": "├─ 󰾲 GPU"
+    },
+    {
+      "type": "memory",
+      "key": "├─  Memory ",
+      "format": "{total}"
+    },
+    {
+      "type": "disk",
+      "key": "╰─  Disk",
+      "format": "{size-total}"
+    },
+    "break",
+    {
+      "type": "colors",
+      "key": " ",
+      "symbol": "diamond",
+      "brightness": "light"
+    },
+    "break",
+    {
+      "type": "custom",
+      "key": "I'll do as I please, but... you don't mind, do you?"
+    },
+    "break",
+  ],
+  "display": {
+    "separator": " ",
+    "color": {
+      "keys": "#573586",
+      "title": "#594477"
+    },
+    "key": {
+      "width": 15,
+      "type": "string"
+    }
+  }
+}
